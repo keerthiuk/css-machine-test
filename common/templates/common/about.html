@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: brown;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body style="background-color: rgb(239, 160, 114);">
+    <div style="width: 100%;">
+
+        <div style="width:200px; float:left">
+            <!-- <img src="{% static 'image/img1.jpg' %}" width="100px" alt=""> -->
+
+        </div>
+
+        <div style="float: right;background: rgb(236, 137, 97);">
+            <font size="5" color=""><a href="{% url 'common:home' %}">Home</a></font>
+            <font size="5" color=""><a href="{% url 'common:about' %}">About</a></font>
+            <font size="5" color=""><a href="{% url 'common:ourbrands' %}">Ourbrands</a></font>
+            <font size="5" color=""><a href="{% url 'common:jell' %}">Jeweller</a></font>
+            <font size="5" color=""><a href="{% url 'common:con' %}">Contact</a></font>
+        </div>
+
+
+    </div>
+    <!-- <h1>BAABTRA</h1> -->
+    <br>
+    <br>
+    <br>
+
+    <div style=" width: 500px; border:1px; float: left rgb(168, 38, 38) solid; ">
+        <img src="{% static 'image/about_banner.webp' %}" width="1489px" alt="">
+        <ul>
+            <h1>
+                ABOUT US
+            </h1>
+            <p>We are one of the oldest business families in India with a family legacy of over a century in business,
+                starting from as early as 1908. Started for the noble cause of nation-building and self-sustenance in a
+                pre-independent India, the forefathers believed ethical, honest and transparent business practices
+                should form the foundation of the group.
+
+            </p>
+        </ul>
+        <BR>
+        <div style="width:200%; height: 600px; border:1px rgb(40, 94, 126) solid;">
+            <!-- <img src="" width="200px" alt="=kk"> -->
+            <img src="{% static 'image/cmd1-img.webp'%}" width="950px" alt="">
+            <p>Personally, I believe Kalyan Jewellers' major achievement is the trust we have earned from millions of
+                people across the length and breadth of a huge subcontinent like India, and abroad in the GCC.
+
+                We have always believed in fair and transparent business. We have believed that the customer should be
+                understood so well that we know his needs much before he understands them himself. We have believed that
+                an enlightened customer is the best customer. These are the simple principles that have helped us reach
+                where we are today.
+
+                Today, Kalyan Jewellers has 150 retail stores spread across INDIA and MIDDLE EAST. Pampered by your
+                unbound love and support and with the blessings of the Almighty, we believe we are in the right path
+                towards the accomplishment of our vision to open stores and serve customers across the world.</p>
+
+        </div>
+        <br>
+        <!-- <div style="width:100%; height: 200px; border:1px rgb(40, 94, 126) solid;"> -->
+            <!-- <img src="" width="200px" alt="=kk"> -->
+            <!-- <img src="{% static 'image/cmd1-img.webp}" width="450pxpx" alt="">
+            <p>Personally, I believe Kalyan Jewellers' major achievement is the trust we have earned from millions of
+                people across the length and breadth of a huge subcontinent like India, and abroad in the GCC.
+
+                We have always believed in fair and transparent business. We have believed that the customer should be
+                understood so well that we know his needs much before he understands them himself. We have believed that
+                an enlightened customer is the best customer. These are the simple principles that have helped us reach
+                where we are today.
+
+                Today, Kalyan Jewellers has 150 retail stores spread across INDIA and MIDDLE EAST. Pampered by your
+                unbound love and support and with the blessings of the Almighty, we believe we are in the right path
+                towards the accomplishment of our vision to open stores and serve customers across the world.</p> -->
+
+        <!-- </div> -->
+            <!-- <img src="{% static 'image/delhi.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/gujarat.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/kerala.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/madhyapradesh.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/punjab.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/tamilnadu.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/uttarpradesh.webp' %}" width="450pxpx" alt="">
+            <img src="{% static 'image/westbangal-odisha.webp' %}" width="450pxpx" alt=""> -->
+
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
